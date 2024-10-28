@@ -76,6 +76,10 @@ nav ul li a:hover {
     gap: 1.25rem;
 }
 
+.home span {
+    padding-left: 0.5rem;
+}
+
 .menu {
     display: flex;
     gap: 1.563rem;
@@ -88,8 +92,9 @@ nav ul li a:hover {
 /* main section */
 .main {
     margin-left: 13rem;
+    margin-right: 0.5rem;
     margin-top: 3.75rem;
-    margin-bottom: 3.75rem;
+    margin-bottom: /*3.75rem;*/ 4.5rem;
    
     color: white;
     background-color: black;
@@ -105,10 +110,6 @@ nav ul li a:hover {
     gap: 2rem;
     grid-template-columns: 
     repeat(auto-fit, minmax(13rem, 1fr)); /* cards should be 12.5 rem*/
-}
-
-#square {
-    background-color: green;
 }
 
 .album {
@@ -135,17 +136,18 @@ nav ul li a:hover {
 
 section {
     background-color: #333842;
+    border-radius: 0.25rem;
     position: fixed;
-    margin-left: 12.5rem;
+    margin-left: 12.5rem; 
     bottom: 0;
-    width: 100%;
-    height: 3em;
+    width: 86%;
+    height: 4em;
     display: flex;
 }
 
 section a {
     font-size: 1.25em;
-    margin-top: 0.75em;
+    margin-top: 1em;
     margin-left: 1rem;
     margin-right: 1rem;
     color: #898989;
@@ -157,11 +159,11 @@ section a:hover {
 }
 
 section span {
-    margin-top: 0.75em;
+    margin-top: 1em;
 }
 
 #play {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
     color: green;
     font-size: 1.5em;
 }
@@ -169,7 +171,7 @@ section span {
 section img {
     width: 17rem;
     height: 0.635rem;
-    margin-top: 1em;
+    margin-top: 1.25em;
 }
 
 #start {
@@ -188,7 +190,7 @@ section img {
     width: 2rem;
     margin-left: 1rem;
     border-radius: 0.15rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-right: 1rem;
 }
 
@@ -197,6 +199,7 @@ section img {
     flex-direction: column;
     line-height: 0.375em;
     color: #898989;
+    margin-top: 0.25rem;
 }
 
 #title {
@@ -205,6 +208,5 @@ section img {
 
 #push {
     margin-left: auto;
-    margin-right: 12.5rem;
-    margin-top: 0.75em;
+    margin-top: 1.5em;
 }
